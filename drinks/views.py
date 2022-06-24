@@ -7,8 +7,6 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
 
-from drinks import serializers
-
 
 @api_view(['GET', 'POST'])
 def drink_list(request, format=None):
